@@ -35,7 +35,7 @@
         compatible = "pwm-leds";
         label = "Backlight LEDs";
         pwm_led_0 {
-            pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_INVERTED>;
+            pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_INVERTED>;
         };
     };
 
